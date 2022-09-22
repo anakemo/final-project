@@ -1,0 +1,457 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+
+}
+body{
+    background-color: #e0b2b2;
+}
+
+
+header{
+    width: 100%;
+    padding: 30px 5px 10px 5px;
+    background-color: #e0b2b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    background-image: url(../image/logo.svg);
+    background-size: 100%;
+    text-indent: -99999px;
+    
+
+    
+}
+header p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    display: block;
+    margin-top: 20px;
+    width: 70%;
+    
+}
+
+.product{
+    display: block;
+    width: 90px;
+}
+
+.iconcontainer{
+
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0,8);
+    display: flex;
+    justify-content: space-between;
+    margin-top: px;
+   
+}
+
+
+
+
+.searchicon{
+    width: 30px;
+    background-image: url(../image/search.png);
+    background-size: 100%;
+    
+    
+}
+
+      /* oncklick icons */
+
+      .searchiconhide{
+        width:500px;
+        background-color: #e0b2b2;
+        color: #000000;
+        padding: 10px;
+        align-items: center;
+        margin: 50px auto;
+        text-transform: uppercase;
+        display: none;
+        position: relative;
+        
+    
+    }
+    .close{
+       display: block;
+        position: absolute;
+        top:0px;
+        right:0px;
+       
+    }
+    .searchiconhide label{
+        width: 400px;
+        text-decoration: underline;
+        
+    }
+    .searchbox{
+        display: flex;
+        margin-top: 50px;
+    }
+    .searchiconhide input{
+        width:300px;
+        background-color: #e0b2b2;
+        border: none;
+        border-bottom: 1px solid #000000;
+        
+    }
+
+    
+
+
+
+
+.personicon{
+    width: 30px;
+    background-image: url(../image/user-profile.png);
+    background-size: 100%;
+}
+
+
+
+  
+
+    .personiconhide{
+        width:800px;
+        background-color: #e0b2b2;
+        margin: 30px auto;
+        color: #000000;
+        /* padding: 15px; */
+        display: flex;
+        justify-content: space-between;
+        border: none;
+        border-bottom: 1px solid #000000;
+        position: relative;
+        display: none;
+        
+        
+    }
+    .closepersonalarea{
+        display: block;
+         position: absolute;
+         top: -10px;
+         right: 10px;
+         width: 10px;
+        
+     }
+    .login input{
+        width: 100%;
+        margin: 10px;
+        height: 40px;
+      
+        
+    }
+    
+    .remember{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .rememberme, .input ,.rememberme,.remember {
+        
+        margin: 10px;
+    }
+    
+    
+    
+
+
+
+
+.bagicon{
+    width: 30px;
+    background-image: url(../image/shopping-bag.png);
+    background-size: 100%;
+}
+
+
+
+
+.navigacia{
+    display: flex;
+    width: 100%;
+    background-color: #000000;
+    margin-top: 10px;
+    color: #f0e2e2;
+    
+   
+}
+
+.navigacia ul {
+    padding: 15px;
+    display: flex;
+    
+    
+}
+.navigacia ul li {
+  margin-left: 110px;
+
+
+}
+a{
+    color: #ffffff;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+/* footer styles */
+
+.footercontainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding: 40px;
+
+}
+
+
+.footerbox{
+    
+   
+    margin-left: 5px;
+    padding: 5px;
+}
+.footerbox a{
+    display: block;
+  margin-top: 5px;
+  color: #837c7c;
+    
+    
+}
+
+.socicon{
+    display: flex;
+    
+}
+.socicon img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+    
+}
+.reserved{
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.issimocontainer
+{
+   width: 400px;
+}
+
+.issimo{
+    display: block;
+    /* width: 400px; */
+    padding: 15px;
+    font-size: 24px ;
+
+}
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background-color: #e0b2b2;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: #e0b2b2;
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #e0b2b2;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #e0b2b2;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #e0b2b2;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+
+  main{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .inrome{
+    width: 50%;
+    background-image: url(../image/shopinrome.webp);
+    background-size: 100%;
+    
+  }
+
+  .secondline{
+    width: 100%;
+    display: flex;
+    border-top: 1px solid black;
+    padding: 20px;
+
+  }
+  
+  .secondlinebox {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 50%;
+    margin: 5px;
+    
+   
+  }
+ 
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+  
+  .secondlinebox p{
+    color: #e9e0e0;
+    text-decoration: double;
+    text-transform: capitalize;
+    font-style: bold;
+    font-weight: 400;
+    font-size: 24px;
+   
+    
+  }
+
+ 
+
+  .article{
+    width: 25%;
+    margin: 50px 5px;
+  }
+  .thirdlinea{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+  }
+  .latestreads{
+    display: block;
+    text-align: center;
+  }
+  .thirdlinea p {
+    padding: 5px;
+  }
+  .articleimg img:hover{
+    width: 105%;
+    
+  }
+/* homedecor.html styles */
+
+.homedecortextcontainer{
+  width: 50%;
+  border-bottom: 1px solid black;
+}
+.homedecortextcontainer p {
+  font-size: 22px;
+  padding: 10px;
+}
+
+.homedecoritemscontainer{
+  display: flex;
+justify-content: space-between;
+
+
+}
+.homedecoritemsbox{
+  width: 300px;
+  /* height: 300px; */
+  overflow: hidden;
+  padding: 10px;
+  margin: 5px;
+ 
+
+}
+
+
+.bowl2{
+  display: none;
+
+}
+
+
+
+
+
+ 
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
