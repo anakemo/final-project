@@ -610,3 +610,26 @@ h3{
   margin-right: 400px;
   margin-top: 50px;
 }
+
+
+/* travel html page */
+
+.cardcontaner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+}
+.pcard a{
+  color: black;
+  font-style: italic;
+  text-transform: capitalize;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pcard a:hover{
+  background-color: #0c0c0c;
+  color: #e0b2b2;
+
+ 
+}
