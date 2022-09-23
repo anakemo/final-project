@@ -51,7 +51,7 @@ header p{
     background-color: rgba(0, 0, 0, 0,8);
     display: flex;
     justify-content: space-between;
-    margin-top: px;
+   
    
 }
 
@@ -204,48 +204,6 @@ a{
 }
 
 
-/* footer styles */
-
-.footercontainer{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    border-top: 1px solid black;
-    padding: 40px;
-
-}
-
-
-.footerbox{
-    
-   
-    margin-left: 5px;
-    padding: 5px;
-}
-.footerbox a{
-    display: block;
-  margin-top: 5px;
-  color: #837c7c;
-    
-    
-}
-
-.socicon{
-    display: flex;
-    
-}
-.socicon img{
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-    margin-top: 5px;
-    
-}
-.reserved{
-    display: block;
-    text-align: center;
-    margin-top: 15px;
-}
 
 .issimocontainer
 {
@@ -398,6 +356,190 @@ a{
     width: 105%;
     
   }
+
+  /* footer styles */
+
+.footercontainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  padding: 40px;
+
+}
+
+
+.footerbox{
+  
+ 
+  margin-left: 5px;
+  padding: 5px;
+}
+.footerbox a{
+  display: block;
+margin-top: 5px;
+color: #837c7c;
+  
+  
+}
+
+.socicon{
+  display: flex;
+  
+}
+.socicon img{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  margin-top: 5px;
+  
+}
+.reserved{
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+}
+
+
+
+
+  /* responsive indexhtml */
+
+
+
+@media only screen and (max-width:450px) {
+.logo{
+    width: 30px;
+    height: 30px;
+  
+}
+.iconcontainer{
+
+  width: 50px;
+}
+.product{
+ 
+  width: 40px;
+}
+.searchiconhide{
+width:200px;
+
+}
+
+
+.navigacia ul {
+padding: 15px;
+display: block;
+
+
+}
+.navigacia ul li {
+margin-left: 10px;
+
+
+}
+a{
+color: #ffffff;
+padding: 10px;
+font-size: 12px;
+}
+
+.secondline{
+width: 100%;
+display: block;
+border-top: 1px solid black;
+padding: 20px;
+
+}
+.thirdlinea{
+display: block;
+justify-content: space-between;
+border-top: 1px solid black;
+}
+
+.thirdlinea p {
+padding: 5px;
+width: 300px;
+}
+.thirdlinea h4{
+width: 300px;
+}
+.footercontainer{
+width: 100%;
+display: block;
+
+padding: 10px;
+
+}
+}
+
+
+@media only screen and (max-width:850px) {
+logo{
+  width: 50px;
+  height: 50px;
+
+}
+.iconcontainer{
+
+width: 70px;
+}
+.product{
+
+width: 70px;
+}
+.searchiconhide{
+width:300px;
+
+}
+
+
+.navigacia ul {
+padding: 25px;
+display: block;
+
+
+}
+.navigacia ul li {
+margin-left: 10px;
+
+
+}
+a{
+color: #ffffff;
+padding: 10px;
+font-size: 12px;
+}
+
+.secondline{
+width: 100%;
+display: block;
+border-top: 1px solid black;
+padding: 20px;
+
+}
+.thirdlinea{
+display: block;
+justify-content: space-between;
+border-top: 1px solid black;
+}
+
+.thirdlinea p {
+padding: 5px;
+width: 600px;
+}
+.thirdlinea h4{
+width: 600px;
+}
+.footercontainer{
+width: 100%;
+display: block;
+padding: 10px;
+}
+
+
+
+
 /* homedecor.html styles */
 
 .homedecortextcontainer{
@@ -508,6 +650,7 @@ width: 600px;
   padding: 10px;
   text-rendering: geometricPrecision;
 
+}
 }
 
 
