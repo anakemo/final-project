@@ -411,7 +411,9 @@ a{
 
 .homedecoritemscontainer{
   display: flex;
+  flex-wrap: wrap;
 justify-content: space-between;
+padding: 20px;
 
 
 }
@@ -421,17 +423,92 @@ justify-content: space-between;
   overflow: hidden;
   padding: 10px;
   margin: 5px;
+  border: none;
+  border-bottom: 1px solid black;
  
 
 }
+.homedecoritemsbox img{
+  border-radius: 10%;
+}
 
-
-.bowl2{
-  display: none;
-
+.homedecoritemsbox:hover{
+  width: 310px;
+  perspective: 100px;
+  box-shadow: 0px 0px 20px black;
+  border-radius: 5%;
+  cursor: pointer;
 }
 
 
+
+.fashionarticle1, .fashionarticle2, .fashionarticle3{
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 1px solid black;
+  border: width 200px;
+}
+.fashionarticle1 h2{
+  font-size: 36px;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.fashionarticle1 h3{
+  font-size: 26px;
+  padding: 15px;
+  text-transform: capitalize;
+
+}
+.grid{
+  width: 500px;
+  height:150px;
+  
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+  
+}
+.grid:hover{
+cursor: pointer;
+width: 600px;
+}
+.fashionarticle2{
+  display: flex;
+}
+
+.maxmarapic{
+  width: 600px;
+  margin: 50px auto;
+}
+.fashionarticletextbox{
+  width: 500px;
+  height: 200px;
+  margin-left: -400px;
+  margin-top: 100px;
+  background-color: #e9e0e0;
+
+}
+.fashionarticletextbox p{
+  padding: 15px;
+
+}
+.image{
+  margin-top: 20px;
+}
+
+
+.fashionarticle3 p{
+  padding: 10px;
+  text-rendering: geometricPrecision;
+
+}
 
 
 
@@ -454,4 +531,82 @@ main{
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    margin-bottom: 30px;
+}
+
+
+/* fashion html page  */
+.containerbeauty{
+  margin: 50px auto;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+h2{
+  font-size: 42px;
+ 
+  text-transform: capitalize;
+  text-align: center;
+  display: block;
+  margin: 50px auto;
+}
+.img1{
+  margin: 50px 100px 10px 100px;
+}
+h3{
+  display: block;
+  font-size: 32px;
+ text-align: center;
+ margin: 50px auto;
+}
+.img2{
+  margin: 50px ;
+  width: 20%;
+  margin: 50px auto;
+}
+.ischia {
+  display: block;
+  width: 40%;
+  margin: 50px auto;
+
+}
+
+.numeri{
+  display: inline;
+  width: 50%;
+}
+.img3{
+  margin-left: 300px;
+}
+.img4{
+  margin-right: 20px;
+  margin-top: 40px;
+
+  
+}
+.img4 img{
+  border-radius: 20%;
+}
+.coldshower{
+  width: 350px;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.shower{
+  display: flex;
+  flex-wrap: wrap;
+}
+.img5{
+  width: 400px;
+  margin-top: 50px;
+ 
+}
+.scrub{
+  width: 400px;
+  
+  padding: 10px;
+  margin-right: 400px;
+  margin-top: 50px;
 }

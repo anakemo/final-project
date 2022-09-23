@@ -26,7 +26,7 @@ function hidePersonArea() {
 {
 
     const navigacia = ["home" , "home decor", "fashion", "beauty","food", "travel", "gift guides", ];
-    const links = ["index.html" ,"homedecor.html", "fashin.html", "beauty.html" , "food.html", "travel.html", "gift guides.html"];
+    const links = ["index.html" ,"homedecor.html", "fashion.html", "beauty.html" , "food.html", "travel.html", "gift guides.html"];
     
     let navigaciasigrdze = navigacia.length;
 
@@ -65,7 +65,6 @@ function showSlides(n) {
   slides[slideIndex-1].style.display="block";
   dots[slideIndex-1].className += " active";
 }
-
 
 
 
