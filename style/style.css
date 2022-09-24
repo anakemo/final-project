@@ -1,3 +1,5 @@
+
+
 *{
     margin:0;
     padding: 0;
@@ -10,6 +12,16 @@
 body{
     background-color: #e0b2b2;
 }
+
+
+main{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 30px;
+ 
+}
+
 
 
 header{
@@ -54,8 +66,6 @@ header p{
    
    
 }
-
-
 
 
 .searchicon{
@@ -105,20 +115,13 @@ header p{
         
     }
 
-    
-
-
-
+  
 
 .personicon{
     width: 30px;
     background-image: url(../image/user-profile.png);
     background-size: 100%;
 }
-
-
-
-  
 
     .personiconhide{
         width:800px;
@@ -258,12 +261,7 @@ a{
     color: white;
   }
   
-  /* The dot/bullet/indicator container */
-  .dot-container {
-    text-align: center;
-    padding: 20px;
-    background-color: #e0b2b2;
-  }
+  
   
   /* The dots/bullets/indicators */
   .dot {
@@ -357,6 +355,43 @@ a{
     
   }
 
+
+/* chatbox styles  */
+main{
+  position: relative;
+}
+
+.chatbox{
+  width: 10%;
+  display: block;
+  position: absolute;
+  position: fixed;
+  bottom:0%;
+  right: 0%;
+  background-color:#e0b2b2 ;
+  
+
+}
+.chat-popup textarea{
+  width: 250px;
+  height: 70px;
+  resize: none;
+  background-color: #e0b2b2;
+}
+
+.chat-popup{
+  display: none;
+  position: absolute;
+  position: fixed;
+  bottom:0%;
+  right: 0%;
+  width: 200px;
+
+}
+
+
+
+
   /* footer styles */
 
 .footercontainer{
@@ -371,16 +406,13 @@ a{
 
 .footerbox{
   
- 
   margin-left: 5px;
   padding: 5px;
 }
 .footerbox a{
-  display: block;
+display: block;
 margin-top: 5px;
 color: #837c7c;
-  
-  
 }
 
 .socicon{
@@ -403,140 +435,7 @@ color: #837c7c;
 
 
 
-  /* responsive indexhtml */
-
-
-
-@media only screen and (max-width:450px) {
-.logo{
-    width: 30px;
-    height: 30px;
   
-}
-.iconcontainer{
-
-  width: 50px;
-}
-.product{
- 
-  width: 40px;
-}
-.searchiconhide{
-width:200px;
-
-}
-
-
-.navigacia ul {
-padding: 15px;
-display: block;
-
-
-}
-.navigacia ul li {
-margin-left: 10px;
-
-
-}
-a{
-color: #ffffff;
-padding: 10px;
-font-size: 12px;
-}
-
-.secondline{
-width: 100%;
-display: block;
-border-top: 1px solid black;
-padding: 20px;
-
-}
-.thirdlinea{
-display: block;
-justify-content: space-between;
-border-top: 1px solid black;
-}
-
-.thirdlinea p {
-padding: 5px;
-width: 300px;
-}
-.thirdlinea h4{
-width: 300px;
-}
-.footercontainer{
-width: 100%;
-display: block;
-
-padding: 10px;
-
-}
-}
-
-
-@media only screen and (max-width:850px) {
-logo{
-  width: 50px;
-  height: 50px;
-
-}
-.iconcontainer{
-
-width: 70px;
-}
-.product{
-
-width: 70px;
-}
-.searchiconhide{
-width:300px;
-
-}
-
-
-.navigacia ul {
-padding: 25px;
-display: block;
-
-
-}
-.navigacia ul li {
-margin-left: 10px;
-
-
-}
-a{
-color: #ffffff;
-padding: 10px;
-font-size: 12px;
-}
-
-.secondline{
-width: 100%;
-display: block;
-border-top: 1px solid black;
-padding: 20px;
-
-}
-.thirdlinea{
-display: block;
-justify-content: space-between;
-border-top: 1px solid black;
-}
-
-.thirdlinea p {
-padding: 5px;
-width: 600px;
-}
-.thirdlinea h4{
-width: 600px;
-}
-.footercontainer{
-width: 100%;
-display: block;
-padding: 10px;
-}
-
 
 
 
@@ -545,20 +444,23 @@ padding: 10px;
 .homedecortextcontainer{
   width: 50%;
   border-bottom: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
 }
 .homedecortextcontainer p {
+  display: block;
   font-size: 22px;
   padding: 10px;
+  margin: 5px;
 }
 
 .homedecoritemscontainer{
   display: flex;
   flex-wrap: wrap;
-justify-content: space-between;
-padding: 20px;
-
-
+  justify-content: space-between;
+  padding: 20px;
 }
+
 .homedecoritemsbox{
   width: 300px;
   /* height: 300px; */
@@ -567,8 +469,7 @@ padding: 20px;
   margin: 5px;
   border: none;
   border-bottom: 1px solid black;
- 
-
+  
 }
 .homedecoritemsbox img{
   border-radius: 10%;
@@ -583,7 +484,8 @@ padding: 20px;
 }
 
 
-
+      /* fashion html styles  */
+      
 .fashionarticle1, .fashionarticle2, .fashionarticle3{
   display: block;
   width: 100%;
@@ -651,34 +553,12 @@ width: 600px;
   text-rendering: geometricPrecision;
 
 }
-}
-
-
-
- 
-
-
-
-
-  
 
 
 
 
 
-
-
-
-
-main{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    margin-bottom: 30px;
-}
-
-
-/* fashion html page  */
+/* beauty html page  */
 .containerbeauty{
   margin: 50px auto;
   padding: 50px;
@@ -776,3 +656,140 @@ h3{
 
  
 }
+
+
+
+/* responsive indexhtml */
+
+
+
+@media only screen and (max-width:450px) {
+  .logo{
+      width: 30px;
+      height: 30px;
+    
+  }
+  .iconcontainer{
+  
+    width: 50px;
+  }
+  .product{
+   
+    width: 40px;
+  }
+  .searchiconhide{
+  width:200px;
+  
+  }
+  
+  
+  .navigacia ul {
+  padding: 15px;
+  display: block;
+  
+  
+  }
+  .navigacia ul li {
+  margin-left: 10px;
+  
+  
+  }
+  a{
+  color: #ffffff;
+  padding: 10px;
+  font-size: 12px;
+  }
+  
+  .secondline{
+  width: 100%;
+  display: block;
+  border-top: 1px solid black;
+  padding: 20px;
+  
+  }
+  .thirdlinea{
+  display: block;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  }
+  
+  .thirdlinea p {
+  padding: 5px;
+  width: 300px;
+  }
+  .thirdlinea h4{
+  width: 300px;
+  }
+  .footercontainer{
+  width: 100%;
+  display: block;
+  
+  padding: 10px;
+  
+  }
+  }
+  
+  
+  @media only screen and (max-width:850px) {
+  logo{
+    width: 50px;
+    height: 50px;
+  
+  }
+  .iconcontainer{
+  
+  width: 70px;
+  }
+  .product{
+  
+  width: 70px;
+  }
+  .searchiconhide{
+  width:300px;
+  
+  }
+  
+  
+  .navigacia ul {
+  padding: 25px;
+  display: block;
+  
+  
+  }
+  .navigacia ul li {
+  margin-left: 10px;
+  
+  
+  }
+  a{
+  color: #ffffff;
+  padding: 10px;
+  font-size: 12px;
+  }
+  
+  .secondline{
+  width: 100%;
+  display: block;
+  border-top: 1px solid black;
+  padding: 20px;
+  
+  }
+  .thirdlinea{
+  display: block;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  }
+  
+  .thirdlinea p {
+  padding: 5px;
+  width: 600px;
+  }
+  .thirdlinea h4{
+  width: 600px;
+  }
+  .footercontainer{
+  width: 100%;
+  display: block;
+  padding: 10px;
+  }
+  

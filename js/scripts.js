@@ -68,6 +68,21 @@ function showSlides(n) {
 
 
 
+// chatbox
+
+function openForm() {
+  document.getElementById("chat-popup").style.display = "block";
+  document.getElementById("chatbox").style.display = "none";
+  
+}
+
+function closeForm() {
+  document.getElementById("chat-popup").style.display = "none";
+  document.getElementById("chatbox").style.display = "block";
+}
+
+
+
 
 
 
