@@ -60,7 +60,7 @@ header p{
 .iconcontainer{
 
     width: 200px;
-    background-color: rgba(0, 0, 0, 0,8);
+    background-color: rgba(0, 0, 0, 0,6);
     display: flex;
     justify-content: space-between;
    
@@ -494,7 +494,7 @@ color: #837c7c;
   margin-top: 30px;
   font-size: 20px;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #000000;
   border: width 200px;
 }
 .fashionarticle1 h2{
@@ -789,7 +789,46 @@ h3{
   }
   .footercontainer{
   width: 100%;
-  display: block;
   padding: 10px;
+  display: block;
   }
   
+   /* home decor responsive */
+   @media only screen and (max-width:450px) {
+    .homedecortextcontainer, .homedecoritemscontainer{
+      
+      display: block;
+      
+    }
+    .homedecortextcontainer p {
+      display: block;
+      font-size: 16px;
+      padding: 10px;
+      
+    }
+    
+
+
+   }
+
+   @media only screen and (max-width:850px) {
+    .homedecortextcontainer, .homedecoritemscontainer{
+      
+      display: block;
+      
+    }
+    .homedecortextcontainer p {
+      display: block;
+      font-size: 20px;
+      padding: 20px;
+      
+    }
+    
+
+
+   }
+
+
+  
+/* homedecor.html styles */
+
