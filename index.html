@@ -21,6 +21,39 @@
 
 
         
+   <header>
+<div class="headerfirsline">
+    <div  class="burgerMenu" onclick="openNav()"><i class="fa-solid fa-bars"></i></div>
+        <div class="logobox">
+            <a href="index.html"><h1 class="logo">issimo</h1></a>
+            <p class="logoboxp">Embraces the passion and soul of Italy s superlatives in life and living</p>
+        </div>
+        <div class="iconcontainer">
+            <div class="searchicon" id="searchicon" onclick=search() ></div>
+            <div class="personicon" id="personicon" onclick=openPersonArea() ></div>
+            <!-- <div class="bagicon"></div> -->
+        </div>
+
+</div>
+        
+   <div class="headersecondline">
+    <div class="navwraper" id="navwraper">
+        <ul class="navigaciaUl" id="navigaciaUl"></ul>
+    </div>
+   </div>     
+       
+
+
+        <div id="sidenav" class="sidenav" itemid="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul class="sidenavigaciaUl" id="sidenavigaciaUl"></ul>
+
+         
+          </div>
+        
+
+
+        
     </header>
     <main>
 
@@ -28,10 +61,11 @@
 
         <div class="searchiconhide" id="searchiconhide">
             <p class="close" id="close" onclick=hide() > X </p>
-            <label for="searchinput">SEARCH ISSIMOISSIMO.COM
-            </label>
+            <p class="product">SEARCH ISSIMOISSIMO.COM</p>
             <div class="searchbox">
-                <p class="product">PRODUCT</p><input type="search" name="searchinput" id="searchinput">
+                
+                <label for="searchinput"> search our products
+                </label><input type="search" name="searchinput" class="searchinput" id="searchinput" placeholder="type..">
             </div>
             
         </div>
@@ -39,19 +73,16 @@
 
         <div class="personiconhide" id="personiconhide">
             <p class="closepersonalarea" onclick=hidePersonArea() > X </p>
-            <div class="wishlist">
-                <h2> WISHLIST </h2>
-                 <p>Your Wishlist is currently empty.</p>
-            </div>
+    
             <div class="login">
-                <h2>LOGIN</h2>
+                <p>log in</p>
                 <input type="text" name="username" id="usarname">
                 
                 <input type="password" name="password" id="password">
                 <div class="remember">
                     <label for="rememberme">remember me </label>
                     <input type="checkbox" name="rememberme" id="rememberme">
-                    <input type="submit" value="SIGN IN">
+                    <button type="submit" class="submit">sign in </button>
                 
                 </div>
                 
